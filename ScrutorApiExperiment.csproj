@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>5a1e574a-c472-4678-b434-fb8e0f1173aa</UserSecretsId>
+  </PropertyGroup>
+	
+  <ItemGroup>
+	  <PackageReference Include="Bogus" Version="34.0.2" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="Scrutor" Version="4.2.2" />
+	  <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>
