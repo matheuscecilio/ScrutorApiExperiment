@@ -34,7 +34,7 @@ public class RedisCacheService : ICacheService
 
         if (redisDatabase is null)
         {
-            throw new RedisConnectionException(ConnectionFailureType.UnableToConnect, "Erro ao obter banco de dados do Redis");
+            throw new RedisConnectionException(ConnectionFailureType.UnableToConnect, "Error trying to connect to REDIS");
         }
 
         return redisDatabase;
